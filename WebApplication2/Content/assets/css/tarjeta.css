@@ -1,0 +1,25 @@
+﻿
+.credit-card-div span {
+    padding-top: 10px;
+}
+
+.credit-card-div img {
+    background-color: red;
+}
+
+.credit-card-div .small-font {
+    font-size: 9px;
+    background-color: red;
+}
+
+.credit-card-div .pad-adjust {
+    padding-top: 10px;
+    background-color: red;
+}
+
+.etiqueta {
+    color: deepskyblue;
+    padding: 8px;
+}
+
+

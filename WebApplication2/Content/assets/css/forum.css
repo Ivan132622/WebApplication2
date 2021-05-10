@@ -1,0 +1,288 @@
+﻿#enca {
+    
+/*    background-image: url('../img/HOME/sinpuntos.png');*/
+    background-image: url('../../../images/AboutUs/sinpuntos.png');
+
+    height: 30vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1a97fb;
+    width: 100%;
+}
+
+
+cenc {
+    font-size: calc(1.5em + 1.4vw);
+    color: white;
+    font-family: 'Mulish-Bold';
+    font-size-adjust: inherit;
+    position: center;
+ max-height: 5%;
+    max-width: 5%;
+}
+ 
+
+
+.scontainer,
+.scontainer-fluid,
+.scontainer-xl,
+.scontainer-lg,
+.scontainer-md,
+.scontainer-sm {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 992px) {
+    .scontainer-lg, .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .scontainer-xl, .scontainer-lg, .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+
+
+.separador {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+textotopics {
+    font-size: calc(1.9em + 1.4vw);
+    color: #3badf5;
+    font-family: 'Mulish-bold';
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bloque {
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:653px) and (min-width:280px) {
+
+   textotopics {
+        margin-top: 5px;
+        font-size: calc(1.3em + 1.2vw);
+        color: #3badf5;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .bloque {
+        height: 70vh;
+        padding-top: 3vh;
+    }
+
+}
+
+
+    @media (min-width:320px) {
+        textotopics {
+            margin-top: 5px;
+            font-size: calc(1.4em + 1.1vw);
+            color: #3badf5;
+            font-family: 'Mulish-bold';
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .bloque {
+            height: 60vh;
+            padding-top: 3vh;
+        }
+    }
+
+
+
+    @media screen and (max-width:640px) and (min-width:360px) {
+        textotopics {
+            margin-top: 5px;
+            font-size: calc(1.9em + 1.6vw);
+            color: #3badf5;
+            font-family: 'Mulish-bold';
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .bloque {
+            height: 60vh;
+            padding-top: 3vh;
+        }
+    }
+
+
+    @media screen and (max-width:731px) and (min-width:411px) {
+
+        textotopics {
+            margin-top: 5px;
+            font-size: calc(1.9em + 1.6vw);
+            color: #3badf5;
+            font-family: 'Mulish-bold';
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .bloque {
+            height: 60vh;
+            padding-top: 3vh;
+        }
+    }
+
+
+    /* iPhone 5 /se Retina regardless of IOS version */
+    @media (device-height : 568px) and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+        textotopics {
+            margin-top: 5px;
+            font-size: calc(1.5em + 1.2vw);
+            color: #3badf5;
+            font-family: 'Mulish-bold';
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .bloque {
+            height: 60vh;
+            padding-top: 3vh;
+        }
+    }
+
+    @media screen and (max-width:720px) and (min-width:540px) {
+
+        cenc {
+            font-size: calc(1.9em + 1.6vw);
+            color: white;
+            font-family: 'Mulish-Bold';
+            font-size-adjust: inherit;
+            position: center;
+            max-height: 5%;
+            max-width: 5%;
+        }
+
+        textotopics {
+            margin-top: 5px;
+            font-size: calc(2.4em + 2.2vw);
+            color: #3badf5;
+            font-family: 'Mulish-bold';
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .bloque {
+            height: 80vh;
+            padding-top: 3vh;
+        }
+    }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .bloque {
+        height: 60vh;
+        padding-top: 3vh;
+    }
+
+    textotopics {
+        margin-top: 5px;
+        font-size: calc(1.8em + 1.4vw);
+        color: #3badf5;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+    cenc {
+        font-size: calc(2.3em + 2.6vw);
+        color: white;
+        font-family: 'Mulish-Bold';
+        font-size-adjust: inherit;
+        position: center;
+        max-height: 5%;
+        max-width: 5%;
+    }
+
+
+    .bloque {
+        height: 60vh;
+        padding-top: 3vh;
+    }
+
+    textotopics {
+        margin-top: 5px;
+        font-size: calc(2.4em + 2.4vw);
+        color: #3badf5;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+
+    cenc {
+        margin-top:300px;
+        font-size: calc(2.1em + 2.6vw);
+        color: white;
+       font-family: 'Mulish-Bold';
+        font-size-adjust: inherit;
+        position: center;
+        max-height: 5%;
+        max-width: 5%;
+    }
+
+
+    .bloque {
+        height: 60vh;
+        padding-top: 3vh;
+    }
+
+    textotopics {
+        margin-top: 5px;
+        font-size: calc(2.0em + 2.4vw);
+        color: #3badf5;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

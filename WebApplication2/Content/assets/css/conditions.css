@@ -1,0 +1,779 @@
+﻿
+#enca {
+    /*background-image: url('../img/HOME/sinpuntos.png');*/
+    background-image: url('../../../images/AboutUs/sinpuntos.png');
+    height: 30vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1a97fb;
+}
+
+
+.scontainer,
+.scontainer-fluid,
+.scontainer-xl,
+.scontainer-lg,
+.scontainer-md,
+.scontainer-sm {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 992px) {
+    .scontainer-lg, .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .scontainer-xl, .scontainer-lg, .scontainer-md, .scontainer-sm, .scontainer {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+
+.bloques {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.bloques1 {
+    margin-top: -25px;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 576px) {
+    .bloques {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .bloques {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+}
+
+.margenes {
+    padding: 5px;
+}
+
+
+.letrascentro {
+    margin: 0.3rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: auto;
+    /* IMPORTANTE */
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (min-width: 280px) {
+    .letrascentro {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 360px) {
+    .letrascentro {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+/* Imagen utilizada en pantallas de anchura 480 px y superior */
+@media (min-width: 480px) {
+    .letrascentro {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+@media (min-width: 540px) {
+    .letrascentro {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+textogris {
+    font-size: 2.0vh;
+    color: #CCCCCC;
+    font-family: 'Mulish-bold';
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.derecha {
+    margin-left: 20%;
+}
+
+@media (min-width: 400px) {
+    .derecha {
+        margin-left: 20%;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .derecha {
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 360px) {
+    .derecha {
+        margin-left: 23%;
+    }
+}
+
+@media (min-width: 768px) {
+    .derecha {
+        margin-left: 38%;
+    }
+}
+
+@media (min-width: 992px) {
+    .derecha {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .derecha {
+        margin-left: 6%;
+    }
+}
+
+
+
+.letrascentro2 {
+    margin: 0.3rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: auto;
+    /* IMPORTANTE */
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (min-width: 280px) {
+    .letrascentro2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 360px) {
+    .letrascentro2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+/* Imagen utilizada en pantallas de anchura 480 px y superior */
+@media (min-width: 480px) {
+    .letrascentro2 {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+@media (min-width: 540px) {
+    .letrascentro2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+/* Imagen utilizada en pantallas de anchura 768 px y superior */
+@media (min-width: 768px) {
+    .letrascentro2 {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .letrascentro2 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+/* Imagen utilizada en pantallas de anchura 1200 px y superior */
+@media (min-width: 1200px) {
+    .letrascentro2 {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .letrascentro2 {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
+ctitulos {
+    font-size: calc(1.6em + 0.5vw);
+    color: black;
+    font-family: 'Mulish-Bold';
+    color: #0076c6;
+    /*margin-left: 5%;*/
+}
+
+
+ctitulos2 {
+    font-size: calc(1.6em + 0.5vw);
+    color: black;
+    font-family: 'Mulish-Bold';
+    color: #1a97fb;
+    /* margin-left: 5%;*/
+}
+
+
+
+
+.xbloque,
+.xbloque-fluid,
+.xbloque-xl,
+.xbloque-lg,
+.xbloque-md,
+.xbloque-sm {
+    margin-top: 0px;
+}
+
+@media (min-width: 576px) {
+    .xbloque {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .xbloque {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .xbloque {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .xbloque {
+        margin-top: 40px;
+    }
+}
+
+
+
+cenc {
+    font-size: calc(1.5em + 1.4vw);
+    color: white;
+    font-family: 'Mulish-Bold';
+    font-size-adjust: inherit;
+    position: center;
+    max-height: 5%;
+    max-width: 5%;
+}
+
+
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.float-right {
+    float: right !important;
+    background-color: #0076c6 !important;
+}
+
+
+
+#textosimpleinput {
+    width: 100%;
+    height: 5vh;
+    padding: 1px 5px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    border-top-color: #3badf5;
+    border-right-color: #3badf5;
+    border-bottom-color: #3badf5;
+    border-left-color: #3badf5;
+    color: black;
+    font-size: calc(1.2em + 0.8vw);
+    max-width: 100%;
+    font-family: 'Mulish-Regular';
+}
+
+
+#textomensaje {
+    height: 30vh;
+    width: 100%;
+    padding: 1px 5px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    border-top-color: #3badf5;
+    border-right-color: #3badf5;
+    border-bottom-color: #3badf5;
+    border-left-color: #3badf5;
+    font-size: 23px;
+    color: black;
+    max-width: 100%;
+}
+
+
+/*Querys*/
+
+
+@media screen and (max-width:653px) and (min-width:280px) {
+
+    cenc {
+        font-size: calc(1.2em + 1.2vw);
+        color: white;
+        font-family: 'Mulish-Bold';
+        font-size-adjust: inherit;
+        position: center;
+        max-height: 5%;
+        max-width: 5%;
+    }
+
+
+    .scontainer,
+    .scontainer-fluid,
+    .scontainer-xl,
+    .scontainer-lg,
+    .scontainer-md,
+    .scontainer-sm {
+             margin-top:-10px;
+        width: 100%;
+        padding-right: 0.6rem;
+        padding-left: 0.6rem;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+    }
+
+    .xbloque,
+    .xbloque-fluid,
+    .xbloque-xl,
+    .xbloque-lg,
+    .xbloque-md,
+    .xbloque-sm {
+        margin-top: -27px;
+    }
+
+    .bloques {
+        margin-top: -6%;
+          margin-bottom: 10%;
+    }
+
+
+    bloque text nom personal infromation , information We Do'nt   collct
+    .bloques1 {
+        margin-top: -65px;
+           margin-bottom: 10%;
+    }
+
+    .imgpuntos {
+        display: none;
+    }
+
+
+}
+
+    @media screen and (max-width:640px) and (min-width:360px) {
+
+        .scontainer,
+        .scontainer-fluid,
+        .scontainer-xl,
+        .scontainer-lg,
+        .scontainer-md,
+        .scontainer-sm {
+            /*     margin-top:-10px;*/
+            width: 100%;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+        }
+
+        .xbloque,
+        .xbloque-fluid,
+        .xbloque-xl,
+        .xbloque-lg,
+        .xbloque-md,
+        .xbloque-sm {
+            margin-top: -28px;
+        }
+
+        .bloques {
+            margin-top: -5%;
+            /*  margin-bottom: 10%;*/
+        }
+
+        .imgpuntos {
+            display: none;
+        }
+
+
+        /*bloque text nom personal infromation , information We Do'nt   collct*/
+        .bloques1 {
+            margin-top: -65px;
+            /*   margin-bottom: 10%;*/
+        }
+    }
+
+    @media screen and (max-width:823px) and (min-width:411px) {
+
+
+        ctitulos {
+            font-size: calc(1.1em + 0.8vw);
+            color: black;
+            font-family: 'Mulish-Bold';
+            color: #0076c6;
+            /*margin-left: 5%;*/
+        }
+
+        ctitulos2 {
+            font-size: calc(1.1em + 0.8vw);
+            color: black;
+            font-family: 'Mulish-Bold';
+            color: #1a97fb;
+            /* margin-left: 5%;*/
+        }
+
+        
+        .scontainer,
+        .scontainer-fluid,
+        .scontainer-xl,
+        .scontainer-lg,
+        .scontainer-md,
+        .scontainer-sm {
+            /* margin-top:-10px;*/
+            width: 100%;
+            padding-right: 0.2rem;
+            padding-left: 0.2rem;
+            /*  margin-right: auto;
+        margin-left: auto;
+        height: auto;*/
+        }
+
+
+        .imgpuntos {
+            display: none;
+        }
+    }
+
+    /* iPhone 5 /se Retina regardless of IOS version */
+    @media (device-height : 568px) and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+        ctitulos {
+            font-size: calc(0.9em + 0.8vw);
+            color: black;
+            font-family: 'Mulish-Bold';
+            color: #0076c6;
+            /*margin-left: 5%;*/
+        }
+
+        ctitulos2 {
+            font-size: calc(1.1em + 0.8vw);
+            color: black;
+            font-family: 'Mulish-Bold';
+            color: #1a97fb;
+            /* margin-left: 5%;*/
+        }
+
+        cenc {
+            font-size: calc(1.1em + 1.8vw);
+            color: white;
+            font-family: 'Mulish-Bold';
+            font-size-adjust: inherit;
+            position: center;
+            max-height: 5%;
+            max-width: 5%;
+        }
+
+
+        .scontainer,
+        .scontainer-fluid,
+        .scontainer-xl,
+        .scontainer-lg,
+        .scontainer-md,
+        .scontainer-sm {
+            /*     margin-top:-10px;*/
+            width: 100%;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+        }
+
+        .imgpuntos {
+            display: none;
+        }
+
+        .xbloque,
+        .xbloque-fluid,
+        .xbloque-xl,
+        .xbloque-lg,
+        .xbloque-md,
+        .xbloque-sm {
+            margin-top: -28px;
+        }
+
+        .bloques {
+            margin-top: -5%;
+            /*  margin-bottom: 10%;*/
+        }
+
+
+        /*bloque text nom personal infromation , information We Do'nt   collct*/
+        .bloques1 {
+            margin-top: -65px;
+            /*   margin-bottom: 10%;*/
+        }
+    }
+
+    @media screen and (max-width:720px) and (min-width:540px) {
+
+        .scontainer,
+        .scontainer-fluid,
+        .scontainer-xl,
+        .scontainer-lg,
+        .scontainer-md,
+        .scontainer-sm {
+            /*     margin-top:-10px;*/
+            width: 100%;
+            padding-right: 0.3rem;
+            padding-left: 0.3rem;
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+        }
+
+        .imgpuntos {
+            display: none;
+        }
+
+        .xbloque,
+        .xbloque-fluid,
+        .xbloque-xl,
+        .xbloque-lg,
+        .xbloque-md,
+        .xbloque-sm {
+            margin-top: -18px;
+        }
+
+        .bloques {
+            margin-top: -4%;
+            /*  margin-bottom: 10%;*/
+        }
+
+
+        /*bloque text nom personal infromation , information We Do'nt   collct*/
+        .bloques1 {
+            margin-top: -75px;
+            /*   margin-bottom: 10%;*/
+        }
+    }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+    ctitulos {
+        font-size: calc(1.5em + 1.4vw);
+        color: black;
+        font-family: 'Mulish-Bold';
+        color: #0076c6;
+        /*margin-left: 5%;*/
+    }
+    ctitulos2 {
+        font-size: calc(1.5em + 1.4vw);
+        color: black;
+        font-family: 'Mulish-Bold';
+        color: #1a97fb;
+        /* margin-left: 5%;*/
+    }
+
+    textogris {
+        font-size: 2.5vh;
+        color: #CCCCCC;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .scontainer,
+    .scontainer-fluid,
+    .scontainer-xl,
+    .scontainer-lg,
+    .scontainer-md,
+    .scontainer-sm {
+        /*     margin-top:-10px;*/
+        width: 100%;
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+    }
+
+    .imgpuntos {
+        display: none;
+    }
+
+    .xbloque,
+    .xbloque-fluid,
+    .xbloque-xl,
+    .xbloque-lg,
+    .xbloque-md,
+    .xbloque-sm {
+        margin-top: -20px;
+    }
+
+    .bloques {
+        margin-top: -4%;
+        /*  margin-bottom: 10%;*/
+    }
+
+
+    /*bloque text nom personal infromation , information We Do'nt   collct*/
+    .bloques1 {
+        margin-top: -78px;
+        /*   margin-bottom: 10%;*/
+    }
+
+    .imgpuntos {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+
+    ctitulos {
+        font-size: calc(1.5em + 1.4vw);
+        color: black;
+        font-family: 'Mulish-Bold';
+        color: #0076c6;
+        /*margin-left: 5%;*/
+    }
+
+    ctitulos2 {
+        font-size: calc(1.5em + 1.4vw);
+        color: black;
+        font-family: 'Mulish-Bold';
+        color: #1a97fb;
+        /* margin-left: 5%;*/
+    }
+
+    textogris {
+        font-size: 2.5vh;
+        color: #CCCCCC;
+        font-family: 'Mulish-bold';
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .scontainer,
+    .scontainer-fluid,
+    .scontainer-xl,
+    .scontainer-lg,
+    .scontainer-md,
+    .scontainer-sm {
+        /*     margin-top:-10px;*/
+        width: 100%;
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+    }
+
+    .imgpuntos {
+        display: none;
+    }
+
+    .xbloque,
+    .xbloque-fluid,
+    .xbloque-xl,
+    .xbloque-lg,
+    .xbloque-md,
+    .xbloque-sm {
+        margin-top: -20px;
+    }
+
+    .bloques {
+        margin-top: -4%;
+        /*  margin-bottom: 10%;*/
+    }
+
+
+    /*bloque text nom personal infromation , information We Do'nt   collct*/
+    .bloques1 {
+        margin-top: -78px;
+        /*   margin-bottom: 10%;*/
+    }
+
+    .imgpuntos {
+        display: none;
+    }
+
+
+}
